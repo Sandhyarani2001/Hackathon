@@ -1,0 +1,46 @@
+.main-sec{
+    margin:0 10px 120px 40px;
+    
+    .heading{
+        margin: 70px 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+     .container{
+        margin-top: 20px;
+     }
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+    .col{
+        width: 542px;
+        height: 276px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+        background: #F8F9FD;
+        border-radius: 20px;
+        align-items: start;
+        padding-left:30px ;
+        
+        .inner-col{
+            width:470px ;
+        }
+        .p-head{
+            margin-top: 10px;
+           font-weight: bold;
+           font-size: 24px;
+
+        }
+        .para{
+            font-size: 16px;
+            font-weight: 600;
+            color: #64607D;
+
+        }
+    }
+    
+
+}

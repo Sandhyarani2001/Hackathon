@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.challenge-form {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.admin-head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+input,textarea,select{
+    border: 1px solid #b7b7b7;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+input{
+    width: 453px;
+    outline: none;
+}
+select{
+    width: 200px;
+    color: #7e7e7e;
+}
+.admin-head p {
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.date-input-wrapper {
+    position: relative;
+    width: 453px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    cursor: pointer; 
+  }
+  
+  .custom-date-display {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    color: #666;
+    background-color: white;
+  }
+  
+  .custom-date-display:hover {
+    border-color: #007bff;
+  }
+  
+  .calendar-icon {
+    margin-left: auto; 
+    color: #666;
+  }
+
+input[type="file"] {
+    display: none;
+}
+
+.file-input {
+    height: 47px;
+    width: 236px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    border: 1px solid #D9D9D9;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+select {
+    outline: none;
+}
+
+.button {
+    margin: 30px 0px !important;
+    width: 250px;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    background: #44924C !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+}
+
+.button:hover {
+    background-color: #34753a !important;
+}

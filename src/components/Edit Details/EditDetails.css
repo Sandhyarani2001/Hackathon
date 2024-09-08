@@ -1,0 +1,24 @@
+.edit-inputfile{   
+    border: 1px solid red; 
+    gap: 10px;
+    font-size: 14px;
+    color:#44924C;
+    height: 47px;
+    width: 296px;
+    height: 218px;
+    font-weight: 500;
+    display: inline-block;
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.upload-img{
+    width: 249px;
+    height: 122px;
+    border-radius: 10px;
+}

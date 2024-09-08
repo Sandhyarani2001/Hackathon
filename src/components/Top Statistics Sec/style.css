@@ -1,0 +1,33 @@
+.stat-cont{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002A3B;
+
+    .row{
+        margin: 0 100px;
+    }
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-right: 1px solid whitesmoke;
+
+        .text{
+            width: auto;
+            height: 55px;
+            line-height: 10px;
+            margin-left: 30px;
+
+            p{
+                font-weight: 300;
+            }
+        }
+    }
+    .col:last-child {
+        border-right: none;
+      }
+}
