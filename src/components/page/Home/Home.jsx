@@ -12,13 +12,13 @@ function Home() {
 
   const handleFilterChange = (status, level) => {
     setFilters({ status, level });
-};
-  
+  };
+
   return (
     <>
-      <HeroSection/>
-      <Statistic/>
-      <Challenges/>
+      <HeroSection />
+      <Statistic />
+      <Challenges />
       <Filter onSearch={setSearchTerm} onFilter={handleFilterChange} />
       <ListPages searchTerm={searchTerm} filters={filters} />
     </>
