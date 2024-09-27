@@ -23,6 +23,11 @@ function Admin() {
   const handleSubmit = (e) =>{
     e.preventDefault();
 
+    if (new Date(startDate) > new Date(endDate)) {
+      alert("Start date cannot be later than the end date.");
+      return;
+    }
+
     const challenges = JSON.parse(localStorage.getItem('challenges')) || [];
     const challenge = {
       name,

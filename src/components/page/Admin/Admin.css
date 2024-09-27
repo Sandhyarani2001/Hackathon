@@ -65,9 +65,7 @@ select{
     background-color: white;
   }
   
-  .custom-date-display:hover {
-    border-color: #007bff;
-  }
+  
   
   .calendar-icon {
     margin-left: auto; 
