@@ -67,7 +67,7 @@ function Admin() {
   return (
     <>
       <div className="admin-head p-3 mb-2 bg-light">
-        <p>Challenge Details</p>
+        <p>Create Challenge</p>
       </div>
 
       <form className="challenge-form flex flex-col mt-5" onSubmit={handleSubmit}>
